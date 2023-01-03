@@ -1,0 +1,75 @@
+*{
+    font-family: 'Roboto', sans-serif;}
+
+.encabezado{
+    display: flex;
+    background-color: #1F2937;
+    align-items: baseline;
+
+
+}
+
+
+h3.logoheader{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex: 1;
+    padding-left: 15%;
+    padding-top: 0.5;
+
+}
+
+
+
+.LinksEncabezado{
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-around;
+    
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-right: 2em;
+    
+
+}
+
+.SeccionPrincipal{
+    background-color: #1F2937;
+    display:flex;
+    align-items: flex-start;
+}
+
+h1{
+    color:#f9faf8;
+    font-size:48px;
+}
+
+p.TextoSecundario{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+button.BotonPiola{
+    background: #3882f6;
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.PagPiola{
+    padding-left: 15%;
+    padding-top: 2em;
+}
+
+.goku{
+    margin-top:0;
+    height: 25%;
+    width: 70%;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-left: 5%;
+}
