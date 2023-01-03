@@ -1,51 +1,57 @@
 *{
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+/*    background-color: #1F2937;*/
+}
 
 .encabezado{
     display: flex;
     background-color: #1F2937;
     align-items: baseline;
-
-
 }
 
 
 h3.logoheader{
     font-size: 24px;
-    font-weight: bold;
+    font-weight:900;  
     color: #F9FAF8;
     flex: 1;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 0.5;
 
 }
 
-
-
 .LinksEncabezado{
     display: inline-flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
     
 }
 
 a{
     color: #e5e7eb;
     font-size: 18px;
-    padding-right: 2em;
-    
+    padding-right:5em;
+    text-decoration: none;
+
 
 }
 
 .SeccionPrincipal{
     background-color: #1F2937;
     display:flex;
-    align-items: flex-start;
+    padding-bottom: 5em;
+
 }
 
 h1{
     color:#f9faf8;
     font-size:48px;
+    font-weight: 900;
+  
 }
 
 p.TextoSecundario{
@@ -57,19 +63,97 @@ button.BotonPiola{
     background: #3882f6;
     color:#e5e7eb;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
+    border-radius: 12px;
 }
 
 .PagPiola{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 2em;
 }
 
+.gokudiv{
+ 
+}
+
 .goku{
-    margin-top:0;
+  /*  margin-top:0;
     height: 25%;
     width: 70%;
     padding-right: 2em;
     padding-top: 2em;
     padding-left: 5%;
+    padding-bottom: 2%; */
+
+height: 300px;
+width: 550px;
+padding-left:2em;
+padding-right:5em;
+padding-top: 5em;
+
+}
+
+.InformacionRandom{
+/*background-color: #e5e7eb; */
+}
+
+h3.AlgunaInfo{
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-top:1em;
+}
+
+figure.VariasImg{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap: 6em;
+    padding-bottom: 5em
+}
+
+img.stand1{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+}
+img.stand2{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+}
+img.stand3{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+}
+img.stand4{
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+}
+
+.CitaImportante{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #e5e7eb;
+}
+
+h3.Cita{
+font-size: 36px;
+font-style: italic;
+}
+
+h4.AutorCita{
+    padding-left:8em;
+    padding-top: 0em;
 }
