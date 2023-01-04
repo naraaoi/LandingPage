@@ -2,13 +2,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-/*    background-color: #1F2937;*/
+
+.encabezado, .SeccionPrincipal {
+background-color: #1F2937;
 }
+
+h3.logoheader, h1.heroh1, h3.AlgunaInfo{
+color: #F9FAF8;
+}
+/*seccion de header/encabezado*/
 
 .encabezado{
     display: flex;
-    background-color: #1F2937;
     align-items: baseline;
 }
 
@@ -40,19 +45,25 @@ a{
 
 }
 
+/* Seccion hero o principal de la pagina */
+
 .SeccionPrincipal{
-    background-color: #1F2937;
     display:flex;
+    align-content: stretch;
+    align-items: stretch;
+    padding-top:5em;
     padding-bottom: 5em;
 
 }
 
-h1{
+h1.heroh1{
+    
     color:#f9faf8;
     font-size:48px;
     font-weight: 900;
-  
+    display: inline;
 }
+
 
 p.TextoSecundario{
     color:#e5e7eb;
@@ -65,33 +76,44 @@ button.BotonPiola{
     font-size: 18px;
     font-weight: 500;
     border-radius: 12px;
+    width: 200px;
 }
 
 .PagPiola{
     padding-left: 10%;
-    padding-top: 2em;
+    padding-right: 4em;
+    display: inline-flex;
+    flex-direction: column;
+    align-items:stretch;
+    align-content: stretch;
 }
 
-.gokudiv{
- 
+.gatitodiv{
+    
 }
 
-.goku{
+.gatito{
   /*  margin-top:0;
     height: 25%;
     width: 70%;
     padding-right: 2em;
     padding-top: 2em;
     padding-left: 5%;
-    padding-bottom: 2%; */
+    padding-bottom: 2%; 
 
-height: 300px;
-width: 550px;
-padding-left:2em;
-padding-right:5em;
-padding-top: 5em;
+    height: 300px;
+    width: 550px;
+    padding-left:2em;
+    padding-right:5em;
+    padding-top: 5em;*/
+    padding-right:5em;
+    object-fit: cover;
+    height: 300px;
+    width: autox;
 
 }
+
+/*seccion de imagenes random*/
 
 .InformacionRandom{
 /*background-color: #e5e7eb; */
@@ -100,60 +122,126 @@ padding-top: 5em;
 h3.AlgunaInfo{
     font-size: 36px;
     text-align: center;
-    color: #1f2937;
     font-weight: bolder;
     padding-top:1em;
+    color:#1F2937;
 }
 
-figure.VariasImg{
-    display:flex;
+div.variasimg{
+    display: flex;
     align-items: center;
-    justify-content:center;
-    gap: 6em;
-    padding-bottom: 5em
+    justify-content: center;
+    padding-bottom: 5em;
+
 }
 
-img.stand1{
+figure.Img1, figure.Img2, figure.Img3, figure.Img4{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img.stand1, img.stand2, img.stand3, img.stand4{
     border-radius: 15px;
     width: 150px;
     height: 150px;
     border: solid #3882f6;
+
 }
-img.stand2{
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    border: solid #3882f6;
-}
-img.stand3{
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    border: solid #3882f6;
-}
-img.stand4{
-    border-radius: 15px;
-    width: 150px;
-    height: 150px;
-    border: solid #3882f6;
-}
+
+/*seccion de cita */
 
 .CitaImportante{
     padding-top: 5em;
     padding-bottom: 5em;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
     background-color: #e5e7eb;
 }
 
 h3.Cita{
-font-size: 36px;
-font-style: italic;
+
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
 }
 
 h4.AutorCita{
-    padding-left:8em;
-    padding-top: 0em;
+    text-align: center;
+    padding-left: 6em;
 }
+
+/*seccion "call to action" */
+
+section.calltoaction{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+div.rectanguloazul{
+    background-color: #3882f6;
+    border-radius: 15px;
+    width:75%;
+    height:75%;
+    display: flex;
+    align-items:stretch;
+    align-content: stretch;
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* seccion de rectangulo azul */
+
+
+div.seccion1{
+padding-left: 6em;
+}
+
+div.seccion2{
+    align-self: center;
+     padding-left: 9em; 
+}
+
+h4.callh4{
+    color:#e5e7eb;
+    font-size: 24px;
+    display: inline;
+}
+
+h4.signuptext{
+    color:#e5e7eb;
+    font-size: 18;
+    
+    font-weight: 300;
+    display: inline;
+    }
+
+button.signupbutton{
+    background: #3882f6;
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 12px;
+    border-color: #e5e7eb;
+    width: 200px;
+}
+
+/* pie de pagina*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h4.h4footer{
+    font-size: 14;
+    font-weight: 300;
+}   
